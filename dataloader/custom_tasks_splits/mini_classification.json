@@ -1,0 +1,38 @@
+{
+    "all": [
+        "emo",
+        "tweet_eval-hate",
+        "climate_fever",
+        "health_fact",
+        "ethos-gender",
+        "ethos-religion",
+        "anli",
+        "scitail",
+        "medical_questions_pairs",
+        "paws",
+        "tweet_eval-emotion",
+        "sick",
+        "amazon_polarity",
+        "ag_news"
+    ],
+    "train": [
+        "emo",
+        "tweet_eval-hate",
+        "climate_fever",
+        "health_fact",
+        "ethos-gender",
+        "ethos-religion",
+        "anli",
+        "scitail",
+        "medical_questions_pairs",
+        "paws"
+    ],
+    "dev": [
+        "tweet_eval-emotion",
+        "sick"
+    ],
+    "test": [
+        "amazon_polarity",
+        "ag_news"
+    ]
+}
