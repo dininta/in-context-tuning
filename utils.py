@@ -126,5 +126,5 @@ def sample_demos(examples: list, k: int, n_label: int, ex_per_label: int = 16) -
 def create_input_text(demos: list, input_text: str, io_sep: str, ex_sep: str) -> str:
     demonstrations = ex_sep.join(['{} {} {}'.format(ex[0], io_sep, random.choice(ex[1])) for ex in demos])
     if input_text is None:
-        return '{}{}'.format(demonstrations, ex_sep)
+        return demonstrations
     return '{}{}{} {}'.format(demonstrations, ex_sep, input_text, io_sep)
