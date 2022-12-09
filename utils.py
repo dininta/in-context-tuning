@@ -2,6 +2,7 @@ import json
 import math
 import numpy as np
 import os
+import pandas as pd
 import random
 import torch
 from unidecode import unidecode
@@ -128,3 +129,16 @@ def create_input_text(demos: list, input_text: str, io_sep: str, ex_sep: str) ->
     if input_text is None:
         return demonstrations
     return '{}{}{} {}'.format(demonstrations, ex_sep, input_text, io_sep)
+
+def read_prompt_prefix_dict(filename: str) -> dict:
+    df = pd.read_csv(filename, sep='\t', header=0)
+    return pd.Series(df.prompt.values,index=df.task_prefix).to_dict()
+
+def read_instruction_dict(filename: str) -> dict:
+    instructions_dict = {}
+    with open(filename) as fin:
+        lines = fin.readlines()
+    for line in lines:
+        splits = line.strip().split('\t')
+        instructions_dict[splits[0]] = splits[1], splits[2]
+    return instructions_dict
