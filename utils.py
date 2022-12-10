@@ -83,20 +83,20 @@ def read_dev_data(data_path: str, task_names: list) -> list:
 def read_test_data(data_path: str, task_names: list) -> list:
     result = []
     for task_name in task_names:
-        prefix = get_task_prefixes(data_path, task_name)[0]  # only use 1 prefix for test set
+        task_prefixes = get_task_prefixes(data_path, task_name)
 
         # Combine train and dev set into dev only
-        dev_examples = []
-        with open(os.path.join(data_path, task_name, prefix + "_train.tsv"), encoding="utf-8") as fin:
-            lines = fin.readlines()
-        with open(os.path.join(data_path, task_name, prefix + "_dev.tsv"), encoding="utf-8") as fin:
-            lines.extend(fin.readlines())
-        for line in lines:
-            d = unidecode(line).strip().split("\t")
-            dev_examples.append([d[0], d[1:]])
+        #dev_examples = []
+        #with open(os.path.join(data_path, task_name, prefix + "_train.tsv"), encoding="utf-8") as fin:
+        #    lines = fin.readlines()
+        #with open(os.path.join(data_path, task_name, prefix + "_dev.tsv"), encoding="utf-8") as fin:
+        #    lines.extend(fin.readlines())
+        #for line in lines:
+        #    d = unidecode(line).strip().split("\t")
+        #    dev_examples.append([d[0], d[1:]])
 
         test_examples = []
-        with open(os.path.join(data_path, task_name, prefix + "_test.tsv"), encoding="utf-8") as fin:
+        with open(os.path.join(data_path, task_name, task_prefixes[0] + "_test.tsv"), encoding="utf-8") as fin:
             lines = fin.readlines()
         for line in lines:
             d = unidecode(line).strip().split("\t")
@@ -104,7 +104,8 @@ def read_test_data(data_path: str, task_names: list) -> list:
 
         result.append({
             "task_name": task_name,
-            "dev_examples": dev_examples,
+            "task_prefixes": task_prefixes,
+            #"dev_examples": dev_examples,
             "test_examples": test_examples,
         })
     

@@ -1,7 +1,7 @@
 {
     "train": ["superglue-rte", "tweet_eval-sentiment", "discovery", "glue-rte", "superglue-wsc", "scicite", "glue-mrpc", "tweet_eval-stance_hillary", "tweet_eval-offensive", "emotion", "hatexplain", "glue-cola", "sick", "paws", "ethos-sexual_orientation", "glue-qqp", "tweet_eval-emotion", "sms_spam", "health_fact", "glue-mnli", "ethos-disability", "glue-wnli", "scitail", "trec-finegrained", "liar", "glue-sst2", "tweet_eval-stance_abortion", "circa", "tweet_eval-stance_climate", "glue-qnli", "ethos-directed_vs_generalized", "ade_corpus_v2-classification", "wiki_auto", "hate_speech_offensive", "superglue-wic", "google_wellformed_query", "tweet_eval-irony", "ethos-gender", "trec", "rotten_tomatoes"],
     "dev": ["tweet_eval-stance_feminist", "ethos-national_origin", "tweet_eval-hate", "ag_news", "amazon_polarity", "hate_speech18", "poem_sentiment", "climate_fever", "medical_questions_pairs", "tweet_eval-stance_atheism"],
-    "test": ["superglue-cb", "dbpedia_14", "wiki_qa", "emo", "yelp_polarity", "ethos-religion", "financial_phrasebank", "tab_fact", "anli", "ethos-race"],
+    "test": ["superglue-cb", "dbpedia_14", "wiki_qa", "emo", "ethos-religion", "financial_phrasebank", "anli", "ethos-race"],
     "all": ["ade_corpus_v2-classification",
         "ag_news",
         "amazon_polarity",
@@ -46,7 +46,6 @@
         "superglue-rte",
         "superglue-wic",
         "superglue-wsc",
-        "tab_fact",
         "trec",
         "trec-finegrained",
         "tweet_eval-emotion",
@@ -60,6 +59,5 @@
         "tweet_eval-stance_feminist",
         "tweet_eval-stance_hillary",
         "wiki_auto",
-        "wiki_qa",
-        "yelp_polarity"]
+        "wiki_qa"]
 }
