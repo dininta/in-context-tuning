@@ -1,0 +1,10 @@
+anli	anli	
+dbpedia_14	dbpedia_14	
+emo	emo	
+ethos-race	ethos	multilabel
+ethos-religion	ethos	multilabel
+financial_phrasebank	financial_phrasebank	sentences_allagree
+superglue-cb	super_glue	cb
+tab_fact	tab_fact	tab_fact
+wiki_qa	wiki_qa	
+yelp_polarity	yelp_polarity	

@@ -1,7 +1,7 @@
 .DS_Store
 __pycache__/
-data/
-instruction/dataset_list.tsv
-instruction/instructions_io_sep.tsv
-instruction/instructions.tsv
+data/*
+!data/custom_tasks_splits/
+!data/prompt/
+deprecated/
 output/

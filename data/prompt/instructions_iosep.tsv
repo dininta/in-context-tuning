@@ -1,0 +1,54 @@
+ade_corpus_v2-classification	Is the following text related to adverse drug effect (ADE)?	answer:
+circa	Given the question-answer pair of X and Y in a certain context, what answer is Y implying?	answer:
+discovery	Which word gives a smooth transition from the first sentence to the second sentence?	answer:
+emotion	What is the emotion expressed in this message?	emotion:
+ethos-directed_vs_generalized	Is this message for general people or directed to a person?	answer:
+ethos-disability	This message contain hate related to disability. True or false?	answer:
+ethos-gender	This message contain hate related to gender. True or false?	answer:
+ethos-sexual_orientation	This message contain hate related to sexual orientation. True or false?	answer:
+glue-cola	Does the following sentence make sense and use correct English?	answer:
+glue-mnli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
+glue-mrpc	Do the following two sentences mean the same thing?	answer:
+glue-qnli	Is it possible to answer the question based only on the information in the passage?	answer:
+glue-qqp	Do these two questions convey the same meaning? Yes or no?	answer:
+glue-rte	Does the first sentence imply the second sentence?	answer:
+glue-sst2	Does the following sentence have a positive or negative sentiment?	sentiment:
+glue-wnli	Does the first sentence imply the second sentence?	answer:
+google_wellformed_query	Is asking search engines the following query good for finding information?	answer:
+hate_speech_offensive	Is this tweet a hate speech, offensive, or neither?	answer:
+hatexplain	Is this message a hate speech, offensive, or normal?	answer:
+health_fact	Is the following claim false, true, mixture between true and false, or unproven?	answer:
+imdb	Is this review positive or negative?	sentiment:
+liar	Given a statement, speaker, and context, in which of the following categories false, half-true, mostly-true, true, barely-true, pants-fire would you label it based on its truthfulness?	answer:
+onestop_english	How would you assess the reading difficulty of the text passage below? Choose from one of Elementary, Intermediate or Advanced levels.	difficulty:
+paws	Do Sentence 1 and Sentence 2 express the same meaning? Yes or No?	answer:
+rotten_tomatoes	Is this review positive or negative?	sentiment:
+scicite	Is this citation describing a method, a result, or background?	answer:
+scitail	Does the first sentence entail the second sentence or neutral?	answer:
+sick	Does sentence 1 entail, contradict, or is neutral with respect to sentence 2?	answer:
+sms_spam	Is this sms message considered spam?	answer:
+superglue-rte	Based on the premise, is the hypothesis true?	answer:
+superglue-wic	Determine whether the given word is used in the same sense in both sentences.	answer:
+superglue-wsc	Based on the passage, does the pronoun refer to the subject?	answer:
+trec	Is the following question asking about Description, Entity, Abbreviation, Person, Quantity, or Location?	answer:
+trec-finegrained	What is this question asking for?	answer:
+tweet_eval-emoji	Which emoji among ❤, 😍, 😂, 💕, 🔥, 😊, 😎, ✨, 💙, 😘, 📷, 🇺🇸, ☀, 💜, 😉, 💯, 😁, 🎄, 📸, 😜 best describes the sentiment of the following tweet?	emoji:
+tweet_eval-emotion	Which emotion among anger, joy, optimism, sadness best describes the feeling of the author of the following tweet?	emotion:
+tweet_eval-irony	Is this tweet is ironic?	answer:
+tweet_eval-offensive	Is this tweet offensive?	answer:
+tweet_eval-sentiment	What is the sentiment of the tweet? Negative, neutral, or positive?	sentiment:
+tweet_eval-stance_abortion	Is this tweet neutral, in favor of, or against abortion?	answer:
+tweet_eval-stance_climate	What option among neutral, against, in favor of, best describes the stance of this tweet regarding climate change?	answer:
+tweet_eval-stance_hillary	Is this tweet neutral, in favor of, or against Hillary?	answer:
+wiki_auto	Can the normal sentence be simplified into the simple sentence?	answer:
+yahoo_answers_topics	Classify the document into one of these topics: Society & Culture, Science & Mathematics, Health, Education & Reference, Computers & Internet, Sports, Business & Finance, Entertainment & Music, Family & Relationships, Politics & Government.	topic:
+anli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
+dbpedia_14	Given a list of categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, and WrittenWork, what category does the paragraph belong to?	category:
+emo	What would you say is the underlying emotion of this message? Happy, sad, angry, or others?	emotion:
+ethos-race	This message contain hate related to races. True or false?	answer:
+ethos-religion	This message contain hate related to religion. True or false?	answer:
+financial_phrasebank	Which word between "negative", "neutral", "positive" would you use to describe the effect of the following news on the related share prices?	answer:
+superglue-cb	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
+tab_fact	From the above table, the given statement can either be entailed or refuted. Which one is it?	answer:
+wiki_qa	Is the answer reasonable for the given question?	answer:
+yelp_polarity	Based on the review, will you come to the place again?	answer:
