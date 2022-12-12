@@ -170,7 +170,7 @@ METRICS = {
     'yelp_review_full': 'Pearson-Correlation'
 }
 
-def evaluate(predictions, data, metric):
+def evaluate(predictions, targets, metric):
     def cast_to_float(predictions):
         new_predictions = []
         for prediction in predictions:
@@ -181,37 +181,37 @@ def evaluate(predictions, data, metric):
         assert len(new_predictions) == len(predictions)
         return new_predictions
 
-    assert len(predictions) == len(data)
+    assert len(predictions) == len(targets)
 
     if metric == "EM":
         ems = []
-        for (prediction, dp) in zip(predictions, data):
-            ems.append(get_exact_match_over_list(prediction, dp[1]))
+        for (prediction, dp) in zip(predictions, targets):
+            ems.append(get_exact_match_over_list(prediction, dp))
         return np.mean(ems)
     elif metric == "ACC":
         accs = []
-        for (prediction, dp) in zip(predictions, data):
-            accs.append(get_accuracy_over_list(prediction, dp[1]))
+        for (prediction, dp) in zip(predictions, targets):
+            accs.append(get_accuracy_over_list(prediction, dp))
         return np.mean(accs)
     elif metric == "QA-F1":
         f1s = []
-        for (prediction, dp) in zip(predictions, data):
-            f1s.append(get_f1_over_list(prediction, dp[1]))
+        for (prediction, dp) in zip(predictions, targets):
+            f1s.append(get_f1_over_list(prediction, dp))
         return np.mean(f1s)
     elif metric == "Classification-F1":
-        return f1_score([dp[1][0] for dp in data], predictions, average="macro")
+        return f1_score([dp[0] for dp in targets], predictions, average="macro")
     elif metric == "Matthew-Correlation":
-        return get_matthews_corr(data, predictions)
+        return get_matthews_corr(targets, predictions)
     elif metric == "Pearson-Correlation":
         predictions = cast_to_float(predictions)
-        return pearsonr([float(dp[1][0]) for dp in data], predictions)[0]
+        return pearsonr([float(dp[0]) for dp in targets], predictions)[0]
     elif metric == "Rouge-L":
         rouges = []
-        for (prediction, dp) in zip(predictions, data):
-            rouges.append(get_rouge_over_list(prediction, dp[1]))
+        for (prediction, dp) in zip(predictions, targets):
+            rouges.append(get_rouge_over_list(prediction, dp))
         return np.mean(rouges)
 
-def get_matthews_corr(data, predictions):
+def get_matthews_corr(targets, predictions):
     # only cola is using this...?
     new_predictions = []
     for prediction in predictions:
@@ -220,8 +220,8 @@ def get_matthews_corr(data, predictions):
         else:
             new_predictions.append(0.0)
     new_gold = []
-    for dp in data:
-        if dp[1][0] == "acceptable":
+    for dp in targets:
+        if dp[0] == "acceptable":
             new_gold.append(1.0)
         else:
             new_gold.append(0.0)
