@@ -52,3 +52,48 @@ superglue-cb	Does the premise entail, contradict, or is neutral with respect to 
 tab_fact	From the above table, the given statement can either be entailed or refuted. Which one is it?	answer:
 wiki_qa	Is the answer reasonable for the given question?	answer:
 yelp_polarity	Based on the review, will you come to the place again?	answer:
+ai2_arc	Among the given options, which is the correct answer?	answer:
+aqua_rat	Solve the following question by choosing the correct option.	answer:
+boolq	Answer the question with yes or no according to the context.	answer:
+codah	Complete the sentence by choosing the best answer from the candidates.	answer:
+commonsense_qa	Given the options, select the most suitable answer for the following question.	answer:
+cosmos_qa	Read the following context and choose the best option to answer the question.	answer:
+dream	Read the following conversation and answer the question.	answer:
+freebase_qa	Answer the following question.	answer:
+hellaswag	Complete the description with an appropriate ending.	answer:
+jeopardy	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
+kilt_hotpotqa	Formulate an answer to this elaborate question.	answer:
+kilt_nq	Answer the following question.	answer:
+lama-conceptnet	Replace the mask with the correct word.	answer:
+lama-google_re	Replace the mask with the correct word.	answer:
+lama-squad	Replace the mask with the correct word.	answer:
+lama-trex	Replace the mask with the correct word.	answer:
+math_qa	Solve the problem by choosing the correct answer.	answer:
+mc_taco	Given the context, the question, and the candidate answer, the task is to determine whether the candidate answer is plausible ("yes") or not ("no").	yes/no:
+numer_sense	Fill in the blank in the following sentence using world knowledge. Chose from the following options: nine, three, four, zero, two, six, eight, one, five, ten, no, seven	answer:
+openbookqa	Choose an answer from the given choices.	answer:
+qasc	What's the best answer to the question?	answer:
+quail	Read the following context and choose the correct option to answer the question.	answer:
+quarel	Choose the answer between the given two options.	answer:
+quartz-no_knowledge	Answer the question below.	answer:
+quartz-with_knowledge	Read the passage and choose the right answer to the question.	answer:
+race-high	Read the article and select the best answer to the question.	answer:
+race-middle	Read the article and select the best answer to the question.	answer:
+sciq	Read this paragraph and choose the correct option from the provided answers.	answer:
+search_qa	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
+social_i_qa	Which one of the options best answers the question according to the context?	answer:
+squad-no_context	Answer the following question.	answer:
+superglue-copa	Pick the more likely continuation to the following sentence.	answer:
+superglue-multirc	Which one of the options best answers the question according to the context?	answer:
+swag	Complete the text with an appropriate ending.	answer:
+web_questions	Give me the correct facts to answer this.	answer:
+wino_grande	Replace the _ in the given sentence with the correct option.	answer:
+wiqa	Answer the question by more, less or no effect.	answer:
+adversarialqa	Extract the answer to the question from the following context.	answer:
+duorc	Extract the answer to the following question from the movie plot.	answer:
+hotpot_qa	Answer the following question, using the context provided.	answer:
+quoref	Given the following context, answer the following question.	answer:
+ropes	Answer the following question given the situation and background.	answer:
+squad-with_context	Answer the following question, using the context provided.	answer:
+superglue-record	Extract from the context the correct entity that "@placeholder" is referring to.	answer:
+tweet_qa	Given the context, answer the following question.	answer:
