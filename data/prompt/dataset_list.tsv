@@ -1,10 +1,159 @@
+acronym_identification	acronym_identification	
+ade_corpus_v2-classification	ade_corpus_v2	Ade_corpus_v2_classification
+ade_corpus_v2-dosage	ade_corpus_v2	Ade_corpus_v2_drug_dosage_relation
+ade_corpus_v2-effect	ade_corpus_v2	Ade_corpus_v2_drug_ade_relation
+adversarialqa	adversarial_qa	adversarialQA
+aeslc	aeslc	
+ag_news	ag_news	
+ai2_arc	ai2_arc	ARC-Challenge
+amazon_polarity	amazon_polarity	
 anli	anli	
+app_reviews	app_reviews	
+aqua_rat	aqua_rat	raw
+art	art	
+aslg_pc12	aslg_pc12	
+biomrc	biomrc	biomrc_large_B
+blimp-anaphor_gender_agreement	blimp	anaphor_gender_agreement
+blimp-anaphor_number_agreement	blimp	anaphor_number_agreement
+blimp-determiner_noun_agreement_with_adj_irregular_1	blimp	determiner_noun_agreement_with_adj_irregular_1
+blimp-ellipsis_n_bar_1	blimp	ellipsis_n_bar_1
+blimp-ellipsis_n_bar_2	blimp	ellipsis_n_bar_2
+blimp-existential_there_quantifiers_1	blimp	existential_there_quantifiers_1
+blimp-irregular_past_participle_adjectives	blimp	irregular_past_participle_adjectives
+blimp-sentential_negation_npi_licensor_present	blimp	sentential_negation_npi_licensor_present
+blimp-sentential_negation_npi_scope	blimp	sentential_negation_npi_scope
+blimp-wh_questions_object_gap	blimp	wh_questions_object_gap
+boolq	boolq	
+break-QDMR	break_data	QDMR
+break-QDMR-high-level	break_data	QDMR-high-level
+circa	circa	
+climate_fever	climate_fever	
+codah	codah	fold_0
+common_gen	common_gen	
+commonsense_qa	commonsense_qa	
+cos_e	cos_e	v1.11
+cosmos_qa	cosmos_qa	
+crawl_domain	crawl_domain	
+crows_pairs	crows_pairs	
 dbpedia_14	dbpedia_14	
+definite_pronoun_resolution	definite_pronoun_resolution	
+discovery	discovery	discovery
+dream	dream	
+duorc	duorc	SelfRC
+e2e_nlg_cleaned	e2e_nlg_cleaned	
+eli5-askh	eli5	
+eli5-asks	eli5	
+eli5-eli5	eli5	
 emo	emo	
+emotion	emotion	
+empathetic_dialogues	empathetic_dialogues	
+ethos-directed_vs_generalized	ethos	multilabel
+ethos-disability	ethos	multilabel
+ethos-gender	ethos	multilabel
+ethos-national_origin	ethos	multilabel
 ethos-race	ethos	multilabel
 ethos-religion	ethos	multilabel
+ethos-sexual_orientation	ethos	multilabel
 financial_phrasebank	financial_phrasebank	sentences_allagree
+freebase_qa	freebase_qa	
+gigaword	gigaword	
+glue-cola	glue	cola
+glue-mnli	glue	mnli
+glue-mrpc	glue	mrpc
+glue-qnli	glue	qnli
+glue-qqp	glue	qqp
+glue-rte	glue	rte
+glue-sst2	glue	sst2
+glue-wnli	glue	wnli
+google_wellformed_query	google_wellformed_query	
+hate_speech18	hate_speech18	
+hate_speech_offensive	hate_speech_offensive	
+hatexplain	hatexplain	
+health_fact	health_fact	
+hellaswag	hellaswag	
+hotpot_qa	hotpot_qa	distractor
+imdb	imdb	
+jeopardy	jeopardy	
+kilt_ay2	kilt_tasks	aidayago2
+kilt_fever	kilt_tasks	fever
+kilt_hotpotqa	kilt_tasks	hotpotqa
+kilt_nq	kilt_tasks	nq
+kilt_trex	kilt_tasks	trex
+kilt_wow	kilt_tasks	wow
+kilt_zsre	kilt_tasks	structured_zeroshot
+lama-conceptnet	lama	conceptnet
+lama-google_re	lama	google_re
+lama-squad	lama	squad
+lama-trex	lama	trex
+liar	liar	
+limit	limit	
+math_qa	math_qa	
+mc_taco	mc_taco	
+medical_questions_pairs	medical_questions_pairs	
+mocha	mocha	
+multi_news	multi_news	
+numer_sense	numer_sense	
+onestop_english	onestop_english	
+openbookqa	openbookqa	main
+paws	paws	labeled_final
+piqa	piqa	
+poem_sentiment	poem_sentiment	
+qa_srl	qa_srl	
+qasc	qasc	
+quail	quail	
+quarel	quarel	
+quartz-no_knowledge	quartz	
+quartz-with_knowledge	quartz	
+quoref	quoref	
+race-high	race	high
+race-middle	race	middle
+reddit_tifu-title	reddit_tifu	long
+reddit_tifu-tldr	reddit_tifu	long
+ropes	ropes	
+rotten_tomatoes	rotten_tomatoes	
+samsum	samsum	
+scicite	scicite	
+sciq	sciq	
+scitail	scitail	snli_format
+search_qa	search_qa	train_test_val
+sick	sick	
+sms_spam	sms_spam	
+social_i_qa	social_i_qa	
+spider	spider	
+squad-no_context	squad	
+squad-with_context	squad	
 superglue-cb	super_glue	cb
+superglue-copa	super_glue	copa
+superglue-multirc	super_glue	multirc
+superglue-record	super_glue	record
+superglue-rte	super_glue	rte
+superglue-wic	super_glue	wic
+superglue-wsc	super_glue	wsc.fixed
+swag	swag	regular
 tab_fact	tab_fact	tab_fact
+trec	trec	
+trec-finegrained	trec	
+tweet_eval-emoji	tweet_eval	emoji
+tweet_eval-emotion	tweet_eval	emotion
+tweet_eval-hate	tweet_eval	hate
+tweet_eval-irony	tweet_eval	irony
+tweet_eval-offensive	tweet_eval	offensive
+tweet_eval-sentiment	tweet_eval	sentiment
+tweet_eval-stance_abortion	tweet_eval	stance_abortion
+tweet_eval-stance_atheism	tweet_eval	stance_atheism
+tweet_eval-stance_climate	tweet_eval	stance_climate
+tweet_eval-stance_feminist	tweet_eval	stance_feminist
+tweet_eval-stance_hillary	tweet_eval	stance_hillary
+tweet_qa	tweet_qa	
+web_questions	web_questions	
+wiki_auto	wiki_auto	manual
+wiki_bio	wiki_bio	
 wiki_qa	wiki_qa	
+wiki_split	wiki_split	
+wikisql	wikisql	
+wino_grande	winogrande	winogrande_xl
+wiqa	wiqa	
+xsum	xsum	
+yahoo_answers_topics	yahoo_answers_topics	
 yelp_polarity	yelp_polarity	
+yelp_review_full	yelp_review_full	
