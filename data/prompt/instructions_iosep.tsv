@@ -1,76 +1,104 @@
-ade_corpus_v2-classification	Is the following text related to adverse drug effect (ADE)?	answer:
-circa	Given the question-answer pair of X and Y in a certain context, what answer is Y implying?	answer:
-discovery	Which word gives a smooth transition from the first sentence to the second sentence?	answer:
-emotion	What is the emotion expressed in this message?	emotion:
+emo	What would you say is the underlying emotion of this message? Answer with either "happy", "sad", "angry", or "others".	emotion:
+emotion	What is the emotion expressed in this message? Answer with either "sadness", "joy", "love", "anger", "fear", or "surprise".	emotion:
+tweet_eval-emoji	Which emoji among ❤, 😍, 😂, 💕, 🔥, 😊, 😎, ✨, 💙, 😘, 📷, 🇺🇸, ☀, 💜, 😉, 💯, 😁, 🎄, 📸, 😜 best describes the sentiment of the following tweet?	emoji:
+tweet_eval-emotion	Which emotion among anger, joy, optimism, sadness best describes the feeling of the author of the following tweet?	emotion:
+tweet_eval-hate	Does this tweet convey hate? Yes or no?	answer:
+tweet_eval-irony	Is this tweet ironic?	answer:
+tweet_eval-offensive	Is this tweet offensive?	answer:
+tweet_eval-sentiment	What is the sentiment of the tweet? Negative, neutral, or positive?	sentiment:
+tweet_eval-stance_abortion	Is this tweet neutral, in favor of, or against abortion?	answer:
+tweet_eval-stance_atheism	Where does the tweet stand on atheism? Neutral, in favor of, or against?	answer:
+tweet_eval-stance_climate	What option among neutral, against, in favor of, best describes the stance of this tweet regarding climate change?	answer:
+tweet_eval-stance_feminist	What option among neutral, against, in favor of, best describes the stance of this tweet regarding feminism?	answer:
+tweet_eval-stance_hillary	Is this tweet neutral, in favor of, or against Hillary?	answer:
+climate_fever	The given claim may have evidence which supports or refutes it. It also may be disputed. Which is it? If there is not enough information, say "not enough info".	answer:
+health_fact	Is the following claim false, true, mixture between true and false, or unproven?	answer:
+kilt_fever	The given statement may have evidence which supports or refutes it. Which is it?	answer:
+liar	Given a statement, speaker, and context, in which of the following categories: false, half-true, mostly-true, true, barely-true, pants-fire would you label it based on its truthfulness?	answer:
+tab_fact	From the above table, the given statement can either be entailed or refuted. Which one is it?	answer:
 ethos-directed_vs_generalized	Is this message for general people or directed to a person?	answer:
 ethos-disability	This message contain hate related to disability. True or false?	answer:
 ethos-gender	This message contain hate related to gender. True or false?	answer:
+ethos-national_origin	This message contain hate related to national origin. True or false?	answer:
+ethos-race	This message contain hate related to races. True or false?	answer:
+ethos-religion	This message contain hate related to religion. True or false?	answer:
 ethos-sexual_orientation	This message contain hate related to sexual orientation. True or false?	answer:
-glue-cola	Does the following sentence make sense and use correct English?	answer:
-glue-mnli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
-glue-mrpc	Do the following two sentences mean the same thing?	answer:
-glue-qnli	Is it possible to answer the question based only on the information in the passage?	answer:
-glue-qqp	Do these two questions convey the same meaning? Yes or no?	answer:
-glue-rte	Does the first sentence imply the second sentence?	answer:
-glue-sst2	Does the following sentence have a positive or negative sentiment?	sentiment:
-glue-wnli	Does the first sentence imply the second sentence?	answer:
-google_wellformed_query	Is asking search engines the following query good for finding information?	answer:
 hate_speech_offensive	Is this tweet a hate speech, offensive, or neither?	answer:
+hate_speech18	Is the sentiment the sentence expresses is a hate speech or noHate speech?	answer:
 hatexplain	Is this message a hate speech, offensive, or normal?	answer:
-health_fact	Is the following claim false, true, mixture between true and false, or unproven?	answer:
-imdb	Is this review positive or negative?	sentiment:
-liar	Given a statement, speaker, and context, in which of the following categories false, half-true, mostly-true, true, barely-true, pants-fire would you label it based on its truthfulness?	answer:
-onestop_english	How would you assess the reading difficulty of the text passage below? Choose from one of Elementary, Intermediate or Advanced levels.	difficulty:
-paws	Do Sentence 1 and Sentence 2 express the same meaning? Yes or No?	answer:
-rotten_tomatoes	Is this review positive or negative?	sentiment:
-scicite	Is this citation describing a method, a result, or background?	answer:
+anli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
+glue-mnli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
+glue-qnli	Is it possible to answer the question based only on the information in the sentence?	answer:
+glue-rte	Does the first sentence imply the second sentence?	answer:
+glue-wnli	Does the first sentence imply the second sentence?	answer:
 scitail	Does the first sentence entail the second sentence or neutral?	answer:
 sick	Does sentence 1 entail, contradict, or is neutral with respect to sentence 2?	answer:
-sms_spam	Is this sms message considered spam?	answer:
+superglue-cb	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
 superglue-rte	Based on the premise, is the hypothesis true?	answer:
+ade_corpus_v2-classification	Is the following text related to adverse drug effect (ADE)?	answer:
+circa	Given the question-answer pair of X and Y in a certain context, what answer is Y implying? Select the answer between "Yes", "No", "In the middle, neither yes nor no", "Yes, subject to some conditions", "Other".	answer:
+discovery	Which word gives a smooth transition from the first sentence to the second sentence?	answer:
+glue-cola	Does the following sentence make sense and use correct English?	answer:
+google_wellformed_query	Is asking search engines the following query good for finding information?	answer:
+onestop_english	How would you assess the reading difficulty of the text passage below? Choose from one of Elementary, Intermediate or Advanced levels.	difficulty:
+scicite	Is this citation describing a method, a result, or background?	answer:
+sms_spam	Is this sms message considered spam?	answer:
 superglue-wic	Determine whether the given word is used in the same sense in both sentences.	answer:
 superglue-wsc	Based on the passage, does the pronoun refer to the subject?	answer:
 trec	Is the following question asking about Description, Entity, Abbreviation, Person, Quantity, or Location?	answer:
 trec-finegrained	What is this question asking for?	answer:
-tweet_eval-emoji	Which emoji among ❤, 😍, 😂, 💕, 🔥, 😊, 😎, ✨, 💙, 😘, 📷, 🇺🇸, ☀, 💜, 😉, 💯, 😁, 🎄, 📸, 😜 best describes the sentiment of the following tweet?	emoji:
-tweet_eval-emotion	Which emotion among anger, joy, optimism, sadness best describes the feeling of the author of the following tweet?	emotion:
-tweet_eval-irony	Is this tweet is ironic?	answer:
-tweet_eval-offensive	Is this tweet offensive?	answer:
-tweet_eval-sentiment	What is the sentiment of the tweet? Negative, neutral, or positive?	sentiment:
-tweet_eval-stance_abortion	Is this tweet neutral, in favor of, or against abortion?	answer:
-tweet_eval-stance_climate	What option among neutral, against, in favor of, best describes the stance of this tweet regarding climate change?	answer:
-tweet_eval-stance_hillary	Is this tweet neutral, in favor of, or against Hillary?	answer:
 wiki_auto	Can the normal sentence be simplified into the simple sentence?	answer:
-yahoo_answers_topics	Classify the document into one of these topics: Society & Culture, Science & Mathematics, Health, Education & Reference, Computers & Internet, Sports, Business & Finance, Entertainment & Music, Family & Relationships, Politics & Government.	topic:
-anli	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
-dbpedia_14	Given a list of categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, and WrittenWork, what category does the paragraph belong to?	category:
-emo	What would you say is the underlying emotion of this message? Happy, sad, angry, or others?	emotion:
-ethos-race	This message contain hate related to races. True or false?	answer:
-ethos-religion	This message contain hate related to religion. True or false?	answer:
-financial_phrasebank	Which word between "negative", "neutral", "positive" would you use to describe the effect of the following news on the related share prices?	answer:
-superglue-cb	Does the premise entail, contradict, or is neutral with respect to the hypothesis?	answer:
-tab_fact	From the above table, the given statement can either be entailed or refuted. Which one is it?	answer:
 wiki_qa	Is the answer reasonable for the given question?	answer:
+glue-mrpc	Do the following two sentences mean the same thing?	answer:
+glue-qqp	Do these two questions convey the same meaning? Yes or no?	answer:
+medical_questions_pairs	These two questions are either similar or dissimilar. Which is it?	answer:
+paws	Do sentence1 and sentence2 express the same meaning? Yes or No?	answer:
+amazon_polarity	Is the review positive or negative?	answer:
+financial_phrasebank	Which word between "negative", "neutral", "positive" would you use to describe the effect of the following news on the related share prices?	answer:
+glue-sst2	Does the following sentence have a positive or negative sentiment?	sentiment:
+imdb	Is this review positive or negative?	sentiment:
+poem_sentiment	Does this poem express a negative, positive, neutral or mixed sentiment?	answer:
+rotten_tomatoes	Is this review positive or negative?	sentiment:
 yelp_polarity	Based on the review, will you come to the place again?	answer:
-ai2_arc	Among the given options, which is the correct answer?	answer:
-aqua_rat	Solve the following question by choosing the correct option.	answer:
+ag_news	Is this a piece of news regarding world politics, sports, business, or science and technology?	answer:
+dbpedia_14	Given a list of categories: Company, Educational Institution, Artist, Athlete, Office Holder, Mean of Transportation, Building, Natural Place, Village, Animal, Plant, Album, Film, and Written Work, what category does the paragraph belong to?	category:
+yahoo_answers_topics	Classify the document into one of these topics: Society & Culture, Science & Mathematics, Health, Education & Reference, Computers & Internet, Sports, Business & Finance, Entertainment & Music, Family & Relationships, Politics & Government.	topic:
 boolq	Answer the question with yes or no according to the context.	answer:
-codah	Complete the sentence by choosing the best answer from the candidates.	answer:
-commonsense_qa	Given the options, select the most suitable answer for the following question.	answer:
-cosmos_qa	Read the following context and choose the best option to answer the question.	answer:
-dream	Read the following conversation and answer the question.	answer:
+mc_taco	Given the context, the question, and the candidate answer, the task is to determine whether the candidate answer is plausible ("yes") or not ("no").	yes/no:
 freebase_qa	Answer the following question.	answer:
-hellaswag	Complete the description with an appropriate ending.	answer:
 jeopardy	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
 kilt_hotpotqa	Formulate an answer to this elaborate question.	answer:
 kilt_nq	Answer the following question.	answer:
+kilt_trex	Guess an entity which has a relation with the given entity.	answer:
+kilt_zsre	Guess an entity which has a relation with the given entity.	answer:
 lama-conceptnet	Replace the mask with the correct word.	answer:
 lama-google_re	Replace the mask with the correct word.	answer:
 lama-squad	Replace the mask with the correct word.	answer:
 lama-trex	Replace the mask with the correct word.	answer:
-math_qa	Solve the problem by choosing the correct answer.	answer:
-mc_taco	Given the context, the question, and the candidate answer, the task is to determine whether the candidate answer is plausible ("yes") or not ("no").	yes/no:
 numer_sense	Fill in the blank in the following sentence using world knowledge. Chose from the following options: nine, three, four, zero, two, six, eight, one, five, ten, no, seven	answer:
+search_qa	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
+squad-no_context	Answer the following question.	answer:
+web_questions	Give me the correct facts to answer this.	answer:
+eli5-askh	Answer the following question.	answer:
+eli5-asks	Answer the following question.	answer:
+eli5-eli5	Answer the following question.	answer:
+adversarialqa	Extract the answer to the question from the following context.	answer:
+biomrc	According to the passage, which entity best replace XXXX in the sentence?	answer:
+duorc	Extract the answer to the following question from the movie plot.	answer:
+hotpot_qa	Answer the following question, using the context provided.	answer:
+quoref	Given the following context, answer the following question.	answer:
+ropes	Answer the following question given the situation and background.	answer:
+squad-with_context	Answer the following question, using the context provided.	answer:
+superglue-record	Extract from the context the correct entity that "@placeholder" is referring to.	answer:
+tweet_qa	Given the context, answer the following question.	answer:
+ai2_arc	Among the given options, which is the correct answer?	answer:
+aqua_rat	Solve the following question by choosing the correct option.	answer:
+codah	Complete the sentence by choosing the best answer from the candidates.	answer:
+commonsense_qa	Given the options, select the most suitable answer for the following question.	answer:
+cosmos_qa	Read the following context and choose the best option to answer the question.	answer:
+dream	Read the following conversation and answer the question.	answer:
+hellaswag	Complete the description with an appropriate ending.	answer:
+math_qa	Solve the problem by choosing the correct answer.	answer:
 openbookqa	Choose an answer from the given choices.	answer:
 qasc	What's the best answer to the question?	answer:
 quail	Read the following context and choose the correct option to answer the question.	answer:
@@ -80,20 +108,9 @@ quartz-with_knowledge	Read the passage and choose the right answer to the questi
 race-high	Read the article and select the best answer to the question.	answer:
 race-middle	Read the article and select the best answer to the question.	answer:
 sciq	Read this paragraph and choose the correct option from the provided answers.	answer:
-search_qa	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
 social_i_qa	Which one of the options best answers the question according to the context?	answer:
-squad-no_context	Answer the following question.	answer:
 superglue-copa	Pick the more likely continuation to the following sentence.	answer:
 superglue-multirc	Which one of the options best answers the question according to the context?	answer:
 swag	Complete the text with an appropriate ending.	answer:
-web_questions	Give me the correct facts to answer this.	answer:
 wino_grande	Replace the _ in the given sentence with the correct option.	answer:
 wiqa	Answer the question by more, less or no effect.	answer:
-adversarialqa	Extract the answer to the question from the following context.	answer:
-duorc	Extract the answer to the following question from the movie plot.	answer:
-hotpot_qa	Answer the following question, using the context provided.	answer:
-quoref	Given the following context, answer the following question.	answer:
-ropes	Answer the following question given the situation and background.	answer:
-squad-with_context	Answer the following question, using the context provided.	answer:
-superglue-record	Extract from the context the correct entity that "@placeholder" is referring to.	answer:
-tweet_qa	Given the context, answer the following question.	answer:
