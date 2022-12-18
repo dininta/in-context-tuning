@@ -1,9 +1,7 @@
 {
     "train": [
         "adversarialqa",
-        "biomrc",
         "boolq",
-        "duorc",
         "eli5-askh",
         "eli5-asks",
         "eli5-eli5",
@@ -20,17 +18,15 @@
         "lama-trex",
         "mc_taco",
         "numer_sense",
-        "quoref",
         "ropes",
         "search_qa",
         "squad-no_context",
         "squad-with_context",
-        "superglue-multirc",
         "superglue-record",
         "tweet_qa",
         "web_questions"
     ],
-    "dev": [
+    "test": [
         "ai2_arc",
         "aqua_rat",
         "codah",
@@ -41,11 +37,9 @@
         "math_qa",
         "openbookqa",
         "qasc",
-        "quail",
         "quarel",
         "quartz-no_knowledge",
         "quartz-with_knowledge",
-        "race-high",
         "race-middle",
         "sciq",
         "social_i_qa",
@@ -54,5 +48,5 @@
         "wino_grande",
         "wiqa"
     ],
-    "test": []
+    "dev": []
 }

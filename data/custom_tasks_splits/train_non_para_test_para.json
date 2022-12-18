@@ -1,7 +1,7 @@
 {
-    "train": ["ade_corpus_v2-classification",
+    "train": [
+        "ade_corpus_v2-classification",
         "ag_news",
-        "amazon_polarity",
         "anli",
         "circa",
         "climate_fever",
@@ -28,10 +28,8 @@
         "hate_speech_offensive",
         "hatexplain",
         "health_fact",
-        "imdb",
         "kilt_fever",
         "liar",
-        "onestop_english",
         "poem_sentiment",
         "rotten_tomatoes",
         "scicite",
@@ -42,10 +40,8 @@
         "superglue-rte",
         "superglue-wic",
         "superglue-wsc",
-        "tab_fact",
         "trec",
         "trec-finegrained",
-        "tweet_eval-emoji",
         "tweet_eval-emotion",
         "tweet_eval-hate",
         "tweet_eval-irony",
@@ -57,14 +53,13 @@
         "tweet_eval-stance_feminist",
         "tweet_eval-stance_hillary",
         "wiki_auto",
-        "wiki_qa",
-        "yahoo_answers_topics",
-        "yelp_polarity"],
-    "dev": [
+        "wiki_qa"
+    ],
+    "test": [
         "glue-mrpc",
         "glue-qqp",
         "medical_questions_pairs",
         "paws"
     ],
-    "test": []
+    "dev": []
 }
