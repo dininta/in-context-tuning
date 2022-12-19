@@ -71,11 +71,11 @@ kilt_hotpotqa	Formulate an answer to this elaborate question.	answer:
 kilt_nq	Answer the following question.	answer:
 kilt_trex	Guess an entity which has a relation with the given entity.	answer:
 kilt_zsre	Guess an entity which has a relation with the given entity.	answer:
-lama-conceptnet	Replace the mask with the correct word.	answer:
-lama-google_re	Replace the mask with the correct word.	answer:
-lama-squad	Replace the mask with the correct word.	answer:
-lama-trex	Replace the mask with the correct word.	answer:
-numer_sense	Fill in the blank in the following sentence using world knowledge. Chose from the following options: nine, three, four, zero, two, six, eight, one, five, ten, no, seven	answer:
+lama-conceptnet	Fill the blank with the correct word.	answer:
+lama-google_re	Fill the blank with the correct word.	answer:
+lama-squad	Fill the blank with the correct word.	answer:
+lama-trex	Fill the blank with the correct word.	answer:
+numer_sense	Fill in the blank in the following sentence using world knowledge. Chose from the following options: nine, three, four, zero, two, six, eight, one, five, ten, no, seven.	answer:
 search_qa	You will be given a trivia clue, and the category it belongs to. You should answer with the best answer that belongs in the category and is described by the clue.	answer:
 squad-no_context	Answer the following question.	answer:
 web_questions	Give me the correct facts to answer this.	answer:
@@ -114,3 +114,16 @@ superglue-multirc	Which one of the options best answers the question according t
 swag	Complete the text with an appropriate ending.	answer:
 wino_grande	Replace the _ in the given sentence with the correct option.	answer:
 wiqa	Answer the question by more, less or no effect.	answer:
+empathetic_dialogues	Write an empathetic response to this conversation.	response:
+kilt_wow	Write a suitable response to this conversation.	response:
+spider	Write an SQL query for the given question.	query:
+wiki_bio	Write a biography of the given subject based on the information provided.	biography:
+wiki_split	Combine these two sentences into a complex sentence.	answer:
+wikisql	Write an SQL query for the given question.	query:
+aeslc	What is the subject of this email?	subject:
+gigaword	Generate a title for this article.	title:
+multi_news	Write a summary of the following articles.	summary:
+reddit_tifu-title	Generate a title for this story.	title:
+reddit_tifu-tldr	Write a summary of the following stories.	summary:
+samsum	Generate a summary for this dialogue.	summary:
+xsum	Summarize this document.	summary:
