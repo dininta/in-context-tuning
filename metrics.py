@@ -170,7 +170,31 @@ METRICS = {
     'yelp_review_full': 'Pearson-Correlation'
 }
 
-def evaluate(predictions, targets, metric):
+LABELS = {
+    "dbpedia_14": [
+        "company", "educational institution", "artist", "athlete", "office holder", "mean of transportation",
+        "building", "natural place", "village", "animal", "plant", "album", "film", "written work"],
+    "emo": ["others", "happy", "sad", "angry"],
+    "ethos-race": ["false", "true"],
+    "ethos-religion": ["false", "true"],
+    "financial_phrasebank" : ["negative", "neutral", "positive"],
+    "wiki_qa": ["yes", "no"],
+    "anli": ["entailment", "neutral", "contradiction"],
+    "glue-mnli": ["entailment", "neutral", "contradiction"],
+    "glue-qnli": ["yes", "no"],
+    "glue-rte": ["yes", "no"],
+    "glue-wnli": ["yes", "no"],
+    "scitail": ["entailment", "neutral"],
+    "sick": ["entailment", "neutral", "contradiction"],
+    "superglue-cb": ["entailment", "neutral", "contradiction"],
+    "superglue-rte": ["yes", "no"],
+    "glue-mrpc": ["yes", "no"],
+    "glue-qqp": ["yes", "no"],
+    "medical_questions_pairs": ["similar", "dissimilar"],
+    "paws": ["yes", "no"],
+}
+
+def evaluate(predictions, targets, metric, task_name=None):
     def cast_to_float(predictions):
         new_predictions = []
         for prediction in predictions:
@@ -210,6 +234,11 @@ def evaluate(predictions, targets, metric):
         for (prediction, dp) in zip(predictions, targets):
             rouges.append(get_rouge_over_list(prediction, dp))
         return np.mean(rouges)
+    elif metric == "Classification-F1-fixed":
+        if type(targets[0])==list:
+            targets = [x[0].lower() for x in targets]
+        predictions = [x.lower() for x in predictions]
+        return f1_score(targets, predictions, average='macro', labels=LABELS[task_name])
 
 def get_matthews_corr(targets, predictions):
     # only cola is using this...?
