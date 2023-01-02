@@ -127,3 +127,30 @@ reddit_tifu-title	Generate a title for this story.	title:
 reddit_tifu-tldr	Write a summary of the following stories.	summary:
 samsum	Generate a summary for this dialogue.	summary:
 xsum	Summarize this document.	summary:
+acronym_identification	Given the tokens below, find the expansion (acronym meaning) of the given acronym.	expansion:
+art	Assuming the given two observations, which hypothesis is more likely?	answer:
+common_gen	Put the concepts together to form a sentence!	sentence:
+crawl_domain	Add word boundaries into this domain name.	answer:
+crows_pairs	Which sentence is illustrating a stereotype? Answer with either sentence 1 or sentence 2.	answer:
+definite_pronoun_resolution	What does the pronoun in the sentence refer to? Select the answer from the given two candidates.	answer:
+e2e_nlg_cleaned	Given the following data about a restaurant, generate some text about it.	text:
+limit	List out the entities in motion in the following sentence (if there are multiple entities, use a comma to join them).	entities:
+piqa	Given a goal and 2 solutions, choose the most appropriate solution. Answer by returning either solution 1 or solution 2.	answer:
+proto_qa	Answer the following question.	answer:
+qa_srl	Extract the answer to the question from the following context.	answer:
+cos_e	Explain why a human would choose one of the given options to answer the question below.	answer:
+blimp-anaphor_gender_agreement	Which sentence is grammatically correct?	answer:
+blimp-anaphor_number_agreement	Which sentence is grammatically correct?	answer:
+blimp-determiner_noun_agreement_with_adj_irregular_1	Which sentence is grammatically correct?	answer:
+blimp-ellipsis_n_bar_1	Which sentence is grammatically correct?	answer:
+blimp-ellipsis_n_bar_2	Which sentence is grammatically correct?	answer:
+blimp-existential_there_quantifiers_1	Which sentence is grammatically correct?	answer:
+blimp-irregular_past_participle_adjectives	Which sentence is grammatically correct?	answer:
+blimp-sentential_negation_npi_licensor_present	Which sentence is grammatically correct?	answer:
+blimp-sentential_negation_npi_scope	Which sentence is grammatically correct?	answer:
+blimp-wh_questions_object_gap	Which sentence is grammatically correct?	answer:
+app_reviews	On a scale of 1-5 (with 1 being least favorable and 5 being most favorable), how would you rate this review?	rating:
+mocha	Give the similarity measure (on a scale of 1 to 5) for answers 1 and 2. A value of 1 means completely different, whereas a value of 5 means identical.	similarity:
+yelp_review_full	On a scale of 1-5 (with 1 being least favorable and 5 being most favorable), how would you rate this review?	rating:
+ade_corpus_v2-dosage	According to the text, what is the dosage of the drug?	dosage:
+ade_corpus_v2-effect	According to the text, what is the effect of the drug?	effect:
